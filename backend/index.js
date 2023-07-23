@@ -4,7 +4,7 @@ const cors = require('cors');
 const database = require('./db/database');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3007;
 
 app.use(bodyParser.json());
 app.use(cors());
